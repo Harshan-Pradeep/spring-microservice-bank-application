@@ -20,8 +20,8 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 @Tag(
-        name = "CRUD REST APIs for Accounts in ABCBank",
-        description = "CRUD REST APIs in ABCBank to CREATE, UPDATE, FETCH AND DELETE account details"
+        name = "CRUD REST APIs for Accounts in ABC Bank",
+        description = "CRUD REST APIs in ABC Bank to CREATE, UPDATE, FETCH AND DELETE account details"
 )
 @RestController
 @RequestMapping(path="/api/v1", produces = {MediaType.APPLICATION_JSON_VALUE})
