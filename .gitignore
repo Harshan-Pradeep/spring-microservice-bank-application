@@ -35,7 +35,10 @@
 .idea/**/dynamic.xml
 .idea/**/uiDesigner.xml
 .idea/**/dbnavigator.xml
-
+loans/target
+cards/target
+accounts/target
+configServer/target
 # Gradle
 .idea/**/gradle.xml
 .idea/**/libraries
