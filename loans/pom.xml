@@ -9,10 +9,11 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.harshan</groupId>
-	<artifactId>accounts</artifactId>
+	<artifactId>loans</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>accounts</name>
-	<description>Microservice for Accounts</description>
+	<packaging>jar</packaging>
+	<name>loans</name>
+	<description>Microservice for Loans</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -106,6 +107,9 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
+					<image>
+						<name>harshandev/${project.artifactId}:v1</name>
+					</image>
 					<excludes>
 						<exclude>
 							<groupId>org.projectlombok</groupId>
